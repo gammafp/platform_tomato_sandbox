@@ -1,0 +1,316 @@
+{
+    "frames": [
+        {
+            "filename": "tomate_plataformas-16x25_0",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-16x25_1",
+            "frame": {
+                "x": 16,
+                "y": 0,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-16x25_2",
+            "frame": {
+                "x": 32,
+                "y": 0,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-16x25_3",
+            "frame": {
+                "x": 48,
+                "y": 0,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-16x25_4",
+            "frame": {
+                "x": 64,
+                "y": 0,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-16x25_5",
+            "frame": {
+                "x": 80,
+                "y": 0,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-16x25_6",
+            "frame": {
+                "x": 96,
+                "y": 0,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-16x25_7",
+            "frame": {
+                "x": 112,
+                "y": 0,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-idle-16x25_0",
+            "frame": {
+                "x": 0,
+                "y": 25,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-idle-16x25_1",
+            "frame": {
+                "x": 16,
+                "y": 25,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-idle-16x25_2",
+            "frame": {
+                "x": 32,
+                "y": 25,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-idle-16x25_3",
+            "frame": {
+                "x": 48,
+                "y": 25,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-idle-16x25_4",
+            "frame": {
+                "x": 64,
+                "y": 25,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-idle-16x25_5",
+            "frame": {
+                "x": 80,
+                "y": 25,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-idle-16x25_6",
+            "frame": {
+                "x": 96,
+                "y": 25,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-idle-16x25_7",
+            "frame": {
+                "x": 112,
+                "y": 25,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-agachado-16x25_0",
+            "frame": {
+                "x": 0,
+                "y": 50,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-agachado-16x25_1",
+            "frame": {
+                "x": 16,
+                "y": 50,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-agachado-16x25_2",
+            "frame": {
+                "x": 32,
+                "y": 50,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-agachado-16x25_3",
+            "frame": {
+                "x": 48,
+                "y": 50,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-agachado-16x25_4",
+            "frame": {
+                "x": 64,
+                "y": 50,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-agachado-16x25_5",
+            "frame": {
+                "x": 80,
+                "y": 50,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-jumpframe-16x25_0",
+            "frame": {
+                "x": 96,
+                "y": 50,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tomate_plataformas-slide-16x25_0",
+            "frame": {
+                "x": 112,
+                "y": 50,
+                "w": 16,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

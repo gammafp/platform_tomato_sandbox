@@ -1,0 +1,140 @@
+{
+    "anims": [
+        {
+            "key": "walk",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-16x25_0"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-16x25_1"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-16x25_2"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-16x25_3"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-16x25_4"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-16x25_5"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-16x25_6"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-16x25_7"
+                }
+            ]
+        },
+        {
+            "key": "idle",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 7,
+            "frames": [
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-idle-16x25_0"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-idle-16x25_1"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-idle-16x25_2"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-idle-16x25_3"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-idle-16x25_4"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-idle-16x25_5"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-idle-16x25_6"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-idle-16x25_7"
+                }
+            ]
+        },
+        {
+            "key": "down",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 6,
+            "frames": [
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-agachado-16x25_0"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-agachado-16x25_1"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-agachado-16x25_2"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-agachado-16x25_3"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-agachado-16x25_4"
+                },
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-agachado-16x25_5"
+                }
+            ]
+        },
+        {
+            "key": "wall",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-slide-16x25_0"
+                }
+            ]
+        },
+        {
+            "key": "jump",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "tomato",
+                    "frame": "tomate_plataformas-jumpframe-16x25_0"
+                }
+            ]
+        }
+    ]
+}
