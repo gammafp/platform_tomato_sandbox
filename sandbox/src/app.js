@@ -12,7 +12,7 @@ const config = {
     physics: {
         default: 'arcade',
         arcade: {
-            gravity: { y: 500 }
+            gravity: { y: 800 }
         }
     },
     scene: [Bootloader, Tiled, Stage_1]

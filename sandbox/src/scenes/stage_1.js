@@ -48,8 +48,8 @@ class Stage_1 extends Phaser.Scene {
 
     }
 
-    update() {
-        this.tomato.update();
+    update(time, delta) {
+        this.tomato.update(delta);
     }
 }
 
