@@ -4,8 +4,9 @@ class Bootloader extends Phaser.Scene {
     }
 
     preload() {
-        console.log('Bootloader');
+        console.log('Bootloader :D');
         this.load.path = './assets/';
+
         this.load.image('logo_gamma', 'logo_gamma.png');
     }
 

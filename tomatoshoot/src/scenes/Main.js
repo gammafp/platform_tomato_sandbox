@@ -9,7 +9,7 @@ class Main extends Phaser.Scene {
     }
 
     create() {
-        this.add.image(this.sys.game.config.width/2, this.sys.game.config.height/2, 'logo_gamma');
+        this.add.image(this.sys.game.config.width/2, this.sys.game.config.height/2, 'logo_gamma');        
     }
 
     update() {
