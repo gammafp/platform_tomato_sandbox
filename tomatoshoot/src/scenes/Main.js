@@ -1,3 +1,4 @@
+import helpers  from '../share/helpers.js';
 
 class Main extends Phaser.Scene {
     constructor() {
@@ -9,7 +10,11 @@ class Main extends Phaser.Scene {
     }
 
     create() {
-        this.add.image(this.sys.game.config.width/2, this.sys.game.config.height/2, 'logo_gamma');        
+        this.add.image(helpers.C_WIDTH(this), helpers.C_HEIGHT(this), 'logo_gamma');        
+        this.input.on('pointerdown', () => {
+            console.log('Se ha hecho pointer');
+            this.scene.start('Story');
+        });
     }
 
     update() {
