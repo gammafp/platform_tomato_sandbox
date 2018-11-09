@@ -17,7 +17,7 @@ class Cobaya extends Phaser.GameObjects.Sprite {
                 this.changeAnim = true;
                 this.body.setSize(25, 24);
                 this.anims.play('jump');
-                this.body.setVelocityY(-260);
+                this.body.setVelocityY(-235);
             }
         });
         this.scene.input.on('pointerdown', () => {
@@ -25,7 +25,7 @@ class Cobaya extends Phaser.GameObjects.Sprite {
                 this.changeAnim = true;
                 this.body.setSize(25, 24);
                 this.anims.play('jump');
-                this.body.setVelocityY(-260);
+                this.body.setVelocityY(-235);
             }
         });
     }
