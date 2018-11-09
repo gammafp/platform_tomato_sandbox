@@ -8,6 +8,7 @@ class Monedas {
         this.cantidadInicial = 1;
         this.difficult = 300;
         this.heightPositionCoin = helpers.HEIGHT(this.scene) - 80;
+        this.oldTween = [0];
     }
 
     crearMoneda() {
@@ -15,13 +16,13 @@ class Monedas {
             key: 'monedas',
             repeat: this.cantidadInicial,
             setXY: {
-                x: 100,
+                x: Phaser.Math.Between(212, 500),
                 y: this.heightPositionCoin,
                 stepX: Phaser.Math.Between(112, 556)
             }
         });
 
-        this.monedas.setDepth(-1);
+        // this.monedas.setDepth(-1);
 
         this.monedas.children.iterate((x) => {
             x.setOffset(3, 3);
@@ -45,23 +46,33 @@ class Monedas {
     }
 
     addCoin(coin) {
-        
-        this.scene.tweens.add({
-            targets: coin,
-            ease: "Power1",
-            duration: 300,
-            props: {
-                alpha: 0,
-                y: coin.y - 20,
-            },
-            onComplete: () => { 
-                coin.destroy()
-                this.crearNuevoObjeto();
-
+        // this.scene.physics.world.removeCollider(coin)
+        if (!this.oldTween.some((x) => x === coin.x)) {
+            this.oldTween.push(coin.x);
+            if(this.oldTween.length === 100) {
+                this.oldTween = [0];
             }
-        });
-        // Sumar monedas
-        DataBase.coinCollect += 24;
+            this.activateTween = false;
+            this.scene.tweens.add({
+                targets: coin,
+                ease: "Power1",
+                duration: 600,
+                props: {
+                    alpha: 0,
+                    y: coin.y - 20,
+                },
+                onComplete: () => {
+                    this.activateTween = true;
+                    this.crearNuevoObjeto();
+                    coin.destroy();
+                    DataBase.coinCollect += 1;
+                    console.log(DataBase.coinCollect)
+                }
+            });
+            // Sumar monedas
+            // DataBase.coinCollect += 24;
+            // console.log(DataBase.coinCollect)
+        }
     }
 
     // Obtenemos la posición exacta del primer suelo
@@ -83,7 +94,7 @@ class Monedas {
     // Creación de objeto
     crearNuevoObjeto() {
         const moneda = this.monedas.create(this.posObjetoRight(this.ultimoObjeto()) + Phaser.Math.Between(16, this.difficult), this.heightPositionCoin, 'monedas')
-        .setOffset(3, 3).setSize(10, 10);
+            .setOffset(3, 3).setSize(10, 10);
         this.scene.anims.play('moneda', moneda);
     }
 

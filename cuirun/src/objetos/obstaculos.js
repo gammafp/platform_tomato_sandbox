@@ -7,13 +7,13 @@ class Obstaculos {
         this.scene = scene;
         this.cantidadInicial = 1;
         this.timmer = 0;
-        this.difficult = 500; // rango de acercamiento, disminuirlo hasta 112
+        this.difficult = 300; // rango de acercamiento, disminuirlo hasta 112
         this.minTimeDifficult = 35;
     }
 
     crearObstaculo() {
         const steepRandom = Phaser.Math.Between(112, 556);
-        const xInicial = 100;
+        const xInicial = Phaser.Math.Between(300, 556);
         this.soporte = this.scene.physics.add.staticGroup({
             key: 'obstaculo',
             frame: 'aro_s',

@@ -10,6 +10,7 @@ class Gameover extends Phaser.Scene {
     }
 
     create() {
+        this.scene.start('Play');
         DataBase.saveData(DataBase.coinCollect, DataBase.points);
         console.log('Puntos máximos', DataBase.maxPoints()); 
         console.log('Puntos moonedas máximas', DataBase.coinCollect);       
