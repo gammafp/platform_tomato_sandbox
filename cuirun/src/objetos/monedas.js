@@ -22,7 +22,7 @@ class Monedas {
             }
         });
 
-        // this.monedas.setDepth(-1);
+        this.monedas.setDepth(0);
 
         this.monedas.children.iterate((x) => {
             x.setOffset(3, 3);

@@ -46,6 +46,7 @@ class Obstaculos {
                 stepX: steepRandom
             }
         });
+        this.aroRight.setDepth(2);
 
         this.aroLeft.setDepth(-2);
 
