@@ -36,6 +36,7 @@ class Obstaculos {
                 stepX: steepRandom
             }
         });
+        
         this.aroRight = this.scene.physics.add.staticGroup({
             key: 'obstaculo',
             frame: 'aro_right',
@@ -46,8 +47,8 @@ class Obstaculos {
                 stepX: steepRandom
             }
         });
-        this.aroRight.setDepth(2);
 
+        this.aroRight.setDepth(2);
         this.aroLeft.setDepth(-2);
 
         [...Array(3)].map(() => {

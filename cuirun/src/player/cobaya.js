@@ -59,7 +59,6 @@ class Cobaya extends Phaser.GameObjects.Sprite {
             repeat: 0,
         });
     }
-
 }
 
 export default Cobaya;
