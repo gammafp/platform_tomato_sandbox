@@ -1,0 +1,156 @@
+{
+    "anims": [
+        {
+            "key": "idle",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "cobaya",
+                    "frame": "idle_animation_1_0"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "idle_animation_1_1"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "idle_animation_1_2"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "idle_animation_1_3"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "idle_animation_1_4"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "idle_animation_1_5"
+                }
+            ]
+        },
+        {
+            "key": "run",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "cobaya",
+                    "frame": "run_animation_1_00"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "run_animation_1_01"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "run_animation_1_02"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "run_animation_1_03"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "run_animation_1_04"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "run_animation_1_05"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "run_animation_1_06"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "run_animation_1_07"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "run_animation_1_08"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "run_animation_1_09"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "run_animation_1_10"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "run_animation_1_11"
+                }
+            ]
+        },
+        {
+            "key": "jump",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 11,
+            "frames": [
+                {
+                    "key": "cobaya",
+                    "frame": "jump_0"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "jump_1"
+                }
+            ]
+        },
+        {
+            "key": "eat_1",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "cobaya",
+                    "frame": "eat1_0"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "eat1_1"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "eat1_2"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "eat1_3"
+                }
+            ]
+        },
+        {
+            "key": "eat_2",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "cobaya",
+                    "frame": "eat2_0"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "eat2_1"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "eat2_2"
+                },
+                {
+                    "key": "cobaya",
+                    "frame": "eat2_3"
+                }
+            ]
+        }
+    ]
+}

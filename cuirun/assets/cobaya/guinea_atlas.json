@@ -1,0 +1,372 @@
+{
+    "frames": [
+        {
+            "filename": "run_animation_1_00",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 49,
+                "h": 30
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "run_animation_1_01",
+            "frame": {
+                "x": 49,
+                "y": 0,
+                "w": 49,
+                "h": 30
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "run_animation_1_02",
+            "frame": {
+                "x": 98,
+                "y": 0,
+                "w": 49,
+                "h": 30
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "run_animation_1_03",
+            "frame": {
+                "x": 147,
+                "y": 0,
+                "w": 49,
+                "h": 30
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "run_animation_1_04",
+            "frame": {
+                "x": 196,
+                "y": 0,
+                "w": 49,
+                "h": 30
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "run_animation_1_05",
+            "frame": {
+                "x": 245,
+                "y": 0,
+                "w": 49,
+                "h": 30
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "run_animation_1_06",
+            "frame": {
+                "x": 294,
+                "y": 0,
+                "w": 49,
+                "h": 30
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "run_animation_1_07",
+            "frame": {
+                "x": 343,
+                "y": 0,
+                "w": 49,
+                "h": 30
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "run_animation_1_08",
+            "frame": {
+                "x": 392,
+                "y": 0,
+                "w": 49,
+                "h": 30
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "run_animation_1_09",
+            "frame": {
+                "x": 441,
+                "y": 0,
+                "w": 49,
+                "h": 30
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "run_animation_1_10",
+            "frame": {
+                "x": 490,
+                "y": 0,
+                "w": 49,
+                "h": 30
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "run_animation_1_11",
+            "frame": {
+                "x": 539,
+                "y": 0,
+                "w": 49,
+                "h": 30
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "idle_animation_1_0",
+            "frame": {
+                "x": 0,
+                "y": 30,
+                "w": 47,
+                "h": 28
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "idle_animation_1_1",
+            "frame": {
+                "x": 47,
+                "y": 30,
+                "w": 47,
+                "h": 28
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "idle_animation_1_2",
+            "frame": {
+                "x": 94,
+                "y": 30,
+                "w": 47,
+                "h": 28
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "idle_animation_1_3",
+            "frame": {
+                "x": 141,
+                "y": 30,
+                "w": 47,
+                "h": 28
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "idle_animation_1_4",
+            "frame": {
+                "x": 188,
+                "y": 30,
+                "w": 47,
+                "h": 28
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "idle_animation_1_5",
+            "frame": {
+                "x": 235,
+                "y": 30,
+                "w": 47,
+                "h": 28
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "jump_0",
+            "frame": {
+                "x": 282,
+                "y": 30,
+                "w": 49,
+                "h": 27
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "jump_1",
+            "frame": {
+                "x": 331,
+                "y": 30,
+                "w": 49,
+                "h": 27
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat1_0",
+            "frame": {
+                "x": 380,
+                "y": 30,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat1_1",
+            "frame": {
+                "x": 425,
+                "y": 30,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat1_2",
+            "frame": {
+                "x": 470,
+                "y": 30,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat1_3",
+            "frame": {
+                "x": 515,
+                "y": 30,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat2_0",
+            "frame": {
+                "x": 0,
+                "y": 58,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat2_1",
+            "frame": {
+                "x": 45,
+                "y": 58,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat2_2",
+            "frame": {
+                "x": 90,
+                "y": 58,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat2_3",
+            "frame": {
+                "x": 135,
+                "y": 58,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Phaser3",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

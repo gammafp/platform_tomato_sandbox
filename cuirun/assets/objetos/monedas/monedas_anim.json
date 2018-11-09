@@ -1,0 +1,44 @@
+{
+    "anims": [
+        {
+            "key": "moneda",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 9,
+            "frames": [
+                {
+                    "key": "monedas",
+                    "frame": "coin_0"
+                },
+                {
+                    "key": "monedas",
+                    "frame": "coin_1"
+                },
+                {
+                    "key": "monedas",
+                    "frame": "coin_2"
+                },
+                {
+                    "key": "monedas",
+                    "frame": "coin_3"
+                },
+                {
+                    "key": "monedas",
+                    "frame": "coin_4"
+                },
+                {
+                    "key": "monedas",
+                    "frame": "coin_5"
+                },
+                {
+                    "key": "monedas",
+                    "frame": "coin_6"
+                },
+                {
+                    "key": "monedas",
+                    "frame": "coin_7"
+                }
+            ]
+        }
+    ]
+}
