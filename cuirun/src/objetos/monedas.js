@@ -22,9 +22,8 @@ class Monedas {
             }
         });
 
-        this.monedas.setDepth(0);
-
         this.monedas.children.iterate((x) => {
+            x.setDepth(0);
             x.setOffset(3, 3);
             x.setSize(10, 10);
         });
@@ -56,9 +55,8 @@ class Monedas {
             this.scene.tweens.add({
                 targets: coin,
                 ease: "Power1",
-                duration: 600,
+                duration: 300,
                 props: {
-                    alpha: 0,
                     y: coin.y - 20,
                 },
                 onComplete: () => {
@@ -66,12 +64,8 @@ class Monedas {
                     this.crearNuevoObjeto();
                     coin.destroy();
                     DataBase.coinCollect += 1;
-                    console.log(DataBase.coinCollect)
                 }
             });
-            // Sumar monedas
-            // DataBase.coinCollect += 24;
-            // console.log(DataBase.coinCollect)
         }
     }
 
@@ -94,7 +88,7 @@ class Monedas {
     // Creación de objeto
     crearNuevoObjeto() {
         const moneda = this.monedas.create(this.posObjetoRight(this.ultimoObjeto()) + Phaser.Math.Between(16, this.difficult), this.heightPositionCoin, 'monedas')
-            .setOffset(3, 3).setSize(10, 10);
+            .setOffset(3, 3).setSize(10, 10).setDepth(0);
         this.scene.anims.play('moneda', moneda);
     }
 

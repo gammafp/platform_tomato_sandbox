@@ -38,11 +38,12 @@ class Play extends Phaser.Scene {
         // Colisiones
         this.physics.add.collider(this.player, this.suelo.sueloGrupo);
 
+        // Colisión con los obstaculos
         this.physics.add.collider(this.player, this.obstaculos.soporte, this.player.gameOver, null, this.player);
         
         this.physics.add.overlap(this.player, this.monedas.monedas, (a, b) => this.monedas.addCoin(b));
         // Camera
-        this.cameras.main.startFollow(this.player, false, 1, 0, constants.CAMARA.x, constants.CAMARA.y);
+        this.cameras.main.startFollow(this.player, false, .9, 0, constants.CAMARA.x, constants.CAMARA.y, false);
     }
 
     update(time, delta) {

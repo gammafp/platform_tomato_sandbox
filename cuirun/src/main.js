@@ -7,7 +7,7 @@ const config = {
     title: "cuirum",
     width: 320,
     height: 180,
-    type: Phaser.WEBGL,
+    type: Phaser.CANVAS,
     parent: "container",
     backgroundColor: "#c7ecee",
     pixelArt: true,

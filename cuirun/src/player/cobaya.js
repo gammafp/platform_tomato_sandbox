@@ -11,9 +11,10 @@ class Cobaya extends Phaser.GameObjects.Sprite {
         this.changeAnim = false;
 
         this.cursor = this.scene.input.keyboard.createCursorKeys();
+        this.diet = false;
 
         this.scene.input.keyboard.on('keydown_UP', () => {
-            if (this.body.touching.down && this.body.velocity.y === 0) {
+            if (this.body.touching.down && this.body.velocity.y === 0 && !this.diet) {
                 this.changeAnim = true;
                 this.body.setSize(25, 24);
                 this.anims.play('jump');
@@ -21,7 +22,7 @@ class Cobaya extends Phaser.GameObjects.Sprite {
             }
         });
         this.scene.input.on('pointerdown', () => {
-            if (this.body.touching.down && this.body.velocity.y === 0) {
+            if (this.body.touching.down && this.body.velocity.y === 0 && !this.diet) {
                 this.changeAnim = true;
                 this.body.setSize(25, 24);
                 this.anims.play('jump');
@@ -33,13 +34,14 @@ class Cobaya extends Phaser.GameObjects.Sprite {
     update(delta) {
         if (this.body.touching.down && this.body.velocity.y === 0) {
             if (this.changeAnim) {
-                this.body.setSize(40, 33);
+                this.body.setSize(40, 32);
                 this.changeAnim = false;
                 this.anims.play('run');
             }
 
         }
-        // Borrar
+
+        // Borrar (Solo debug)
         if (this.cursor.right.isDown) {
             this.body.setVelocityX(170);
         } else if (this.cursor.left.isDown) {
@@ -48,8 +50,9 @@ class Cobaya extends Phaser.GameObjects.Sprite {
     }
 
     gameOver(cobaya) {
-        console.log(cobaya.anims.pause());
-        // cobaya.body.setVelocityY(-220);
+        this.diet = true;
+        cobaya.anims.setTimeScale(1.7);
+        cobaya.anims.pause();
         cobaya.body.setVelocityX(0);
         cobaya.body.setSize(40, 25);
         cobaya.flipY = true;

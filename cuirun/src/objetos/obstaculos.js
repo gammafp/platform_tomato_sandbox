@@ -1,5 +1,4 @@
 import helpers from '../share/helpers.js';
-import constants from '../share/const.js';
 
 class Obstaculos {
 
@@ -7,7 +6,7 @@ class Obstaculos {
         this.scene = scene;
         this.cantidadInicial = 1;
         this.timmer = 0;
-        this.difficult = 300; // rango de acercamiento, disminuirlo hasta 112
+        this.difficult = 300; // Rango de acercamiento (minimo 112)
         this.minTimeDifficult = 35;
     }
 
@@ -93,7 +92,7 @@ class Obstaculos {
     crearNuevoObjeto() {
         const xRandom = this.posObjetoRight(this.ultimoObjeto()) + Phaser.Math.Between(90, this.difficult);
         this.soporte.create(xRandom, helpers.HEIGHT(this.scene) - 41, 'obstaculo', 'aro_s').setDepth(-1);
-        this.aroRight.create(xRandom - 1, helpers.HEIGHT(this.scene) - 73, 'obstaculo', 'aro_right');
+        this.aroRight.create(xRandom - 1, helpers.HEIGHT(this.scene) - 73, 'obstaculo', 'aro_right').setDepth(2);
         this.aroLeft.create(xRandom - 1, helpers.HEIGHT(this.scene) - 73, 'obstaculo', 'aro_left').setDepth(-2);
     }
 
