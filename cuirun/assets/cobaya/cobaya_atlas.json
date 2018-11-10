@@ -1,10 +1,10 @@
 {
     "frames": [
         {
-            "filename": "run_animation_1_00",
+            "filename": "run_00",
             "frame": {
-                "x": 0,
-                "y": 0,
+                "x": 1,
+                "y": 1,
                 "w": 49,
                 "h": 30
             },
@@ -14,10 +14,10 @@
             }
         },
         {
-            "filename": "run_animation_1_01",
+            "filename": "run_01",
             "frame": {
-                "x": 49,
-                "y": 0,
+                "x": 52,
+                "y": 1,
                 "w": 49,
                 "h": 30
             },
@@ -27,10 +27,10 @@
             }
         },
         {
-            "filename": "run_animation_1_02",
+            "filename": "run_02",
             "frame": {
-                "x": 98,
-                "y": 0,
+                "x": 103,
+                "y": 1,
                 "w": 49,
                 "h": 30
             },
@@ -40,10 +40,10 @@
             }
         },
         {
-            "filename": "run_animation_1_03",
+            "filename": "run_03",
             "frame": {
-                "x": 147,
-                "y": 0,
+                "x": 154,
+                "y": 1,
                 "w": 49,
                 "h": 30
             },
@@ -53,10 +53,10 @@
             }
         },
         {
-            "filename": "run_animation_1_04",
+            "filename": "run_04",
             "frame": {
-                "x": 196,
-                "y": 0,
+                "x": 205,
+                "y": 1,
                 "w": 49,
                 "h": 30
             },
@@ -66,10 +66,10 @@
             }
         },
         {
-            "filename": "run_animation_1_05",
+            "filename": "run_05",
             "frame": {
-                "x": 245,
-                "y": 0,
+                "x": 256,
+                "y": 1,
                 "w": 49,
                 "h": 30
             },
@@ -79,10 +79,10 @@
             }
         },
         {
-            "filename": "run_animation_1_06",
+            "filename": "run_06",
             "frame": {
-                "x": 294,
-                "y": 0,
+                "x": 307,
+                "y": 1,
                 "w": 49,
                 "h": 30
             },
@@ -92,10 +92,10 @@
             }
         },
         {
-            "filename": "run_animation_1_07",
+            "filename": "run_07",
             "frame": {
-                "x": 343,
-                "y": 0,
+                "x": 358,
+                "y": 1,
                 "w": 49,
                 "h": 30
             },
@@ -105,10 +105,10 @@
             }
         },
         {
-            "filename": "run_animation_1_08",
+            "filename": "run_08",
             "frame": {
-                "x": 392,
-                "y": 0,
+                "x": 409,
+                "y": 1,
                 "w": 49,
                 "h": 30
             },
@@ -118,10 +118,10 @@
             }
         },
         {
-            "filename": "run_animation_1_09",
+            "filename": "run_09",
             "frame": {
-                "x": 441,
-                "y": 0,
+                "x": 460,
+                "y": 1,
                 "w": 49,
                 "h": 30
             },
@@ -131,10 +131,10 @@
             }
         },
         {
-            "filename": "run_animation_1_10",
+            "filename": "run_10",
             "frame": {
-                "x": 490,
-                "y": 0,
+                "x": 511,
+                "y": 1,
                 "w": 49,
                 "h": 30
             },
@@ -144,10 +144,10 @@
             }
         },
         {
-            "filename": "run_animation_1_11",
+            "filename": "run_11",
             "frame": {
-                "x": 539,
-                "y": 0,
+                "x": 562,
+                "y": 1,
                 "w": 49,
                 "h": 30
             },
@@ -157,10 +157,10 @@
             }
         },
         {
-            "filename": "idle_animation_1_0",
+            "filename": "idle_0",
             "frame": {
-                "x": 0,
-                "y": 30,
+                "x": 1,
+                "y": 33,
                 "w": 47,
                 "h": 28
             },
@@ -170,10 +170,10 @@
             }
         },
         {
-            "filename": "idle_animation_1_1",
+            "filename": "idle_1",
             "frame": {
-                "x": 47,
-                "y": 30,
+                "x": 50,
+                "y": 33,
                 "w": 47,
                 "h": 28
             },
@@ -183,10 +183,10 @@
             }
         },
         {
-            "filename": "idle_animation_1_2",
+            "filename": "idle_2",
             "frame": {
-                "x": 94,
-                "y": 30,
+                "x": 99,
+                "y": 33,
                 "w": 47,
                 "h": 28
             },
@@ -196,10 +196,10 @@
             }
         },
         {
-            "filename": "idle_animation_1_3",
+            "filename": "idle_3",
             "frame": {
-                "x": 141,
-                "y": 30,
+                "x": 148,
+                "y": 33,
                 "w": 47,
                 "h": 28
             },
@@ -209,10 +209,10 @@
             }
         },
         {
-            "filename": "idle_animation_1_4",
+            "filename": "idle_4",
             "frame": {
-                "x": 188,
-                "y": 30,
+                "x": 197,
+                "y": 33,
                 "w": 47,
                 "h": 28
             },
@@ -222,10 +222,10 @@
             }
         },
         {
-            "filename": "idle_animation_1_5",
+            "filename": "idle_5",
             "frame": {
-                "x": 235,
-                "y": 30,
+                "x": 246,
+                "y": 33,
                 "w": 47,
                 "h": 28
             },
@@ -235,10 +235,114 @@
             }
         },
         {
-            "filename": "jump_0",
+            "filename": "eat1_animation_1_0",
             "frame": {
-                "x": 282,
-                "y": 30,
+                "x": 295,
+                "y": 33,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat1_animation_1_1",
+            "frame": {
+                "x": 342,
+                "y": 33,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat1_animation_1_2",
+            "frame": {
+                "x": 389,
+                "y": 33,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat1_animation_1_3",
+            "frame": {
+                "x": 436,
+                "y": 33,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat2_animation_1_0",
+            "frame": {
+                "x": 483,
+                "y": 33,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat2_animation_1_1",
+            "frame": {
+                "x": 530,
+                "y": 33,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat2_animation_1_2",
+            "frame": {
+                "x": 1,
+                "y": 63,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "eat2_animation_1_3",
+            "frame": {
+                "x": 48,
+                "y": 63,
+                "w": 45,
+                "h": 29
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "jump_animation_1_0",
+            "frame": {
+                "x": 95,
+                "y": 63,
                 "w": 49,
                 "h": 27
             },
@@ -248,116 +352,12 @@
             }
         },
         {
-            "filename": "jump_1",
+            "filename": "jump_animation_1_1",
             "frame": {
-                "x": 331,
-                "y": 30,
+                "x": 146,
+                "y": 63,
                 "w": 49,
                 "h": 27
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "eat1_0",
-            "frame": {
-                "x": 380,
-                "y": 30,
-                "w": 45,
-                "h": 29
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "eat1_1",
-            "frame": {
-                "x": 425,
-                "y": 30,
-                "w": 45,
-                "h": 29
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "eat1_2",
-            "frame": {
-                "x": 470,
-                "y": 30,
-                "w": 45,
-                "h": 29
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "eat1_3",
-            "frame": {
-                "x": 515,
-                "y": 30,
-                "w": 45,
-                "h": 29
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "eat2_0",
-            "frame": {
-                "x": 0,
-                "y": 58,
-                "w": 45,
-                "h": 29
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "eat2_1",
-            "frame": {
-                "x": 45,
-                "y": 58,
-                "w": 45,
-                "h": 29
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "eat2_2",
-            "frame": {
-                "x": 90,
-                "y": 58,
-                "w": 45,
-                "h": 29
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "eat2_3",
-            "frame": {
-                "x": 135,
-                "y": 58,
-                "w": 45,
-                "h": 29
             },
             "anchor": {
                 "x": 0.5,
