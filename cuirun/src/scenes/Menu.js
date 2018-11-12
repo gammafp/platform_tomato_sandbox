@@ -1,5 +1,4 @@
 import DataBase from '../DataBase.js';
-
 class Menu extends Phaser.Scene {
     constructor() {
         super({
@@ -12,7 +11,8 @@ class Menu extends Phaser.Scene {
     }
 
     create() {
-        this.scene.launch('Play');
+        // this.scene.launch('Play');
+        this.scene.launch('Gameover');
     }
 
     update() {

@@ -63,7 +63,7 @@ class Monedas {
                     this.activateTween = true;
                     this.crearNuevoObjeto();
                     coin.destroy();
-                    DataBase.coinCollect += 1;
+                    helpers.EE.emit('coin_add', 1);
                 }
             });
         }

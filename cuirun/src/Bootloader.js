@@ -16,7 +16,23 @@ class Bootloader extends Phaser.Scene {
 
         this.load.atlas('obstaculo', 'objetos/obstaculos/aro.png', 'objetos/obstaculos/aro_atlas.json');
 
+        this.load.image('comidita', 'objetos/adornos/comidita.png');
+
+        this.load.json('fontJSON', 'fonts/16/font.json');
+        this.load.image('font', 'fonts/16/font.png');
+
+        this.load.json('fontTintJSON', 'fonts/16_tint/font_tint.json');
+        this.load.image('font_tint', 'fonts/16_tint/font_tint.png');
+
+        this.load.atlas('confetis', 'objetos/adornos/confetis/confetis.png', 'objetos/adornos/confetis/confetis_atlas.json');
+
         this.load.on('complete', () => {
+            const fontJSON = this.cache.json.get('fontJSON');
+            this.cache.bitmapFont.add('pixel2', Phaser.GameObjects.RetroFont.Parse(this, fontJSON));
+    
+            const fontTintJSON = this.cache.json.get('fontTintJSON');
+            this.cache.bitmapFont.add('pixel2Tint', Phaser.GameObjects.RetroFont.Parse(this, fontTintJSON));
+    
             this.scene.start('Menu');
         });
     }

@@ -1,14 +1,16 @@
 // Se guarda desde el gameOver
-const saveData = (coins, maxpoints) => {
+const saveData = (coins, maxpoints, lastPoints) => {
     const Data = { coins: 0, maxPoints: 0 };
     if (localStorage.getItem('gamma') != null) {
         const datos = JSON.parse(localStorage.getItem('gamma'));
         Data.coins = coins + money();
         Data.maxPoints = (maxPoints() > maxpoints) ? maxPoints() : maxpoints;
+        Data.lastPoint = lastPoints;
     } else {
         console.log('Monedas colelccionadas en DB: ',coins);
         Data.coins = coins;
         Data.maxPoints = maxpoints;
+        Data.lastPoint = lastPoints;
     }
 
     localStorage.setItem('gamma', JSON.stringify(Data));

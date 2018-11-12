@@ -5,4 +5,6 @@ const HEIGHT = (x) => x.sys.game.config.height;
 const C_WIDTH = (x) => WIDTH(x)/2;
 const C_HEIGHT = (x) => HEIGHT(x)/2
 
-export default {C_WIDTH, C_HEIGHT, WIDTH, HEIGHT};
+const EE = new EventEmitter3();
+
+export default {C_WIDTH, C_HEIGHT, WIDTH, HEIGHT, EE};

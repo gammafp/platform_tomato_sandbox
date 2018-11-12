@@ -6,16 +6,17 @@ class Obstaculos {
         this.scene = scene;
         this.cantidadInicial = 1;
         this.timmer = 0;
-        this.difficult = 300; // Rango de acercamiento (minimo 112)
+        this.difficult = 300; // rango de acercamiento, disminuirlo hasta 112
         this.minTimeDifficult = 35;
     }
 
     crearObstaculo() {
         const steepRandom = Phaser.Math.Between(112, 556);
         const xInicial = Phaser.Math.Between(300, 556);
+        // const xInicial = 100;
         this.soporte = this.scene.physics.add.staticGroup({
             key: 'obstaculo',
-            frame: 'aro_s',
+            frame: 'base',
             repeat: this.cantidadInicial,
             setXY: {
                 x: xInicial,
@@ -30,7 +31,7 @@ class Obstaculos {
             frame: 'aro_left',
             repeat: this.cantidadInicial,
             setXY: {
-                x: xInicial - 1,
+                x: xInicial - 7,
                 y: helpers.HEIGHT(this.scene) - 73,
                 stepX: steepRandom
             }
@@ -41,7 +42,7 @@ class Obstaculos {
             frame: 'aro_right',
             repeat: this.cantidadInicial,
             setXY: {
-                x: xInicial - 1,
+                x: xInicial + 4,
                 y: helpers.HEIGHT(this.scene) - 73,
                 stepX: steepRandom
             }
@@ -91,9 +92,9 @@ class Obstaculos {
     // Creación de objeto
     crearNuevoObjeto() {
         const xRandom = this.posObjetoRight(this.ultimoObjeto()) + Phaser.Math.Between(90, this.difficult);
-        this.soporte.create(xRandom, helpers.HEIGHT(this.scene) - 41, 'obstaculo', 'aro_s').setDepth(-1);
-        this.aroRight.create(xRandom - 1, helpers.HEIGHT(this.scene) - 73, 'obstaculo', 'aro_right').setDepth(2);
-        this.aroLeft.create(xRandom - 1, helpers.HEIGHT(this.scene) - 73, 'obstaculo', 'aro_left').setDepth(-2);
+        this.soporte.create(xRandom, helpers.HEIGHT(this.scene) - 41, 'obstaculo', 'base').setDepth(-1);
+        this.aroLeft.create(xRandom - 7, helpers.HEIGHT(this.scene) - 73, 'obstaculo', 'aro_left').setDepth(-2);
+        this.aroRight.create(xRandom + 4, helpers.HEIGHT(this.scene) - 73, 'obstaculo', 'aro_right').setDepth(2);
     }
 
 }
